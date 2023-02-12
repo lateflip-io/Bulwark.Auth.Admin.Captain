@@ -1,8 +1,6 @@
-﻿using System.Text.Json;
-using Bulwark.Admin.Client.Exceptions;
-using RestSharp;
+﻿using RestSharp;
 
-namespace Bulwark.Admin.Client;
+namespace Bulwark.Auth.Admin.Captain;
 
 public class Captain
 {

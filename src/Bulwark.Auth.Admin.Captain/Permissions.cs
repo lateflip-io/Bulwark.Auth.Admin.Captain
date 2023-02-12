@@ -1,9 +1,9 @@
-namespace Bulwark.Admin.Client;
-
 using System.Text.Json;
-using Exceptions;
-using Models;
+using Bulwark.Auth.Admin.Captain.Exceptions;
+using Bulwark.Auth.Admin.Captain.Models;
 using RestSharp;
+
+namespace Bulwark.Auth.Admin.Captain;
 
 public class Permissions
 {

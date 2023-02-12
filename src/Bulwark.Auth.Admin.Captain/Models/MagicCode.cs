@@ -1,4 +1,4 @@
-﻿namespace Bulwark.Admin.Client.Models;
+﻿namespace Bulwark.Auth.Admin.Captain.Models;
 
 public class MagicCode
 {

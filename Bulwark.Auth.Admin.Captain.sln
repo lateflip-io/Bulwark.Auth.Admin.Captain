@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "captain", "src\captain\captain.csproj", "{65A54625-F78D-42DB-98F6-68ACECF2A4BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulwark.Auth.Admin.Captain", "src\Bulwark.Auth.Admin.Captain\Bulwark.Auth.Admin.Captain.csproj", "{65A54625-F78D-42DB-98F6-68ACECF2A4BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "captain-tests", "tests\captain-tests\captain-tests.csproj", "{D0CE7EBD-ADA3-4E21-97D4-FC5927E3DEAF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bulwark.Auth.Admin.Captain.Tests", "tests\Bulwark.Auth.Admin.Captain.Tests\Bulwark.Auth.Admin.Captain.Tests.csproj", "{D0CE7EBD-ADA3-4E21-97D4-FC5927E3DEAF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F2E8245D-1A38-4FC4-BB5A-8281CDB58747}"
 EndProject

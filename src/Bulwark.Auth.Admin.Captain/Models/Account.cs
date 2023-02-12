@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace Bulwark.Admin.Client.Models;
+namespace Bulwark.Auth.Admin.Captain.Models;
 
 public class Account
 {

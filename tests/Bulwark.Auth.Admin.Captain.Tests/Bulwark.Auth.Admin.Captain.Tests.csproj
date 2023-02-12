@@ -2,7 +2,6 @@
 
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <RootNamespace>Bulwark.Captain.Tests</RootNamespace>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
 
@@ -23,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\src\captain\captain.csproj" />
+      <ProjectReference Include="..\..\src\Bulwark.Auth.Admin.Captain\Bulwark.Auth.Admin.Captain.csproj" />
     </ItemGroup>
 
 </Project>

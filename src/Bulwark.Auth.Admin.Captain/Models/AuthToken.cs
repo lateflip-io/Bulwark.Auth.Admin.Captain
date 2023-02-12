@@ -1,4 +1,4 @@
-﻿namespace Bulwark.Admin.Client.Models;
+﻿namespace Bulwark.Auth.Admin.Captain.Models;
 public class AuthToken
 {
     public string Id { get; set; }

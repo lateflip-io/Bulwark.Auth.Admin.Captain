@@ -1,9 +1,9 @@
 using System.Text.Json;
-using Bulwark.Admin.Client.Exceptions;
-using Bulwark.Admin.Client.Models;
+using Bulwark.Auth.Admin.Captain.Exceptions;
+using Bulwark.Auth.Admin.Captain.Models;
 using RestSharp;
 
-namespace Bulwark.Admin.Client;
+namespace Bulwark.Auth.Admin.Captain;
 
 public class Roles
 {

@@ -1,13 +1,13 @@
-using Bulwark.Admin.Client.Exceptions;
+using Bulwark.Auth.Admin.Captain.Exceptions;
 
-namespace Bulwark.Captain.Tests;
+namespace Bulwark.Auth.Admin.Captain.Tests;
 
 public class RolesTest
 {
-    private readonly Admin.Client.Captain _captain;
+    private readonly Auth.Admin.Captain.Captain _captain;
     public RolesTest()
     {
-        _captain = new Admin.Client.Captain("http://localhost:5086");
+        _captain = new Auth.Admin.Captain.Captain("https://localhost:44329");
     }
 
     [Fact]

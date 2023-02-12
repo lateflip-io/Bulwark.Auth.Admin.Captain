@@ -1,4 +1,4 @@
-﻿namespace Bulwark.Admin.Client.Exceptions;
+﻿namespace Bulwark.Auth.Admin.Captain.Exceptions;
 
 public class BulwarkAdminException : Exception
 {
