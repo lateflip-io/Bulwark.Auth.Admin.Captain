@@ -7,7 +7,7 @@ public class RolesTest
     private readonly Auth.Admin.Captain.Captain _captain;
     public RolesTest()
     {
-        _captain = new Auth.Admin.Captain.Captain("https://localhost:44329");
+        _captain = new Auth.Admin.Captain.Captain("http://localhost:8080");
     }
 
     [Fact]

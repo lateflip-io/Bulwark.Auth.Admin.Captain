@@ -1,0 +1,29 @@
+{
+    "branches": [
+        "main",
+        {
+            "name": "beta",
+            "prerelease": true
+        }
+    ],
+     "plugins": [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/github",
+        [
+            "@semantic-release/exec",
+            {
+                "prepareCmd": "../updateVersion.sh '${nextRelease.version}' 'Bulwark.Auth.Admin.Captain/Bulwark.Auth.Admin.Captain.csproj'"
+            }
+        ],
+        [
+            "@semantic-release/git",
+            {
+                "assets": [
+                    "Bulwark.Auth.Guard/Bulwark.Auth.Admin.Captain.csproj"
+                ],
+                "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+            }
+        ]
+     ]
+}

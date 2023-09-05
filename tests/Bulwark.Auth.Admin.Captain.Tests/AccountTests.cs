@@ -2,11 +2,11 @@ namespace Bulwark.Auth.Admin.Captain.Tests;
 
 public class AccountTests
 {
-    private readonly Auth.Admin.Captain.Captain _captain;
+    private readonly Captain _captain;
     public AccountTests()
     {
         //http://localhost:5086
-        _captain = new Auth.Admin.Captain.Captain("https://localhost:44329");
+        _captain = new Captain("http://localhost:8080");
     }
     
     [Fact]
