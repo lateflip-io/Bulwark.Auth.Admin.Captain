@@ -12,6 +12,9 @@
         <PackageLicenseUrl>https://github.com/lateflip-io/Bulwark.Auth.Admin.Captain</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/lateflip-io/Bulwark.Auth.Admin.Captain</RepositoryUrl>
         <RepositoryType>https://github.com/lateflip-io/Bulwark.Auth.Admin.Captain</RepositoryType>
+        <Version>1.0.0</Version>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageTags>bulwark auth admin client</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
