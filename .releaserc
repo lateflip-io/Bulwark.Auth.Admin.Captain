@@ -20,7 +20,7 @@
             "@semantic-release/git",
             {
                 "assets": [
-                    "Bulwark.Auth.Guard/Bulwark.Auth.Admin.Captain.csproj"
+                    "Bulwark.Auth.Admin.Captain/Bulwark.Auth.Admin.Captain.csproj"
                 ],
                 "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }

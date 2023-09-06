@@ -1,7 +1,7 @@
 ﻿using RestSharp;
 
 namespace Bulwark.Auth.Admin.Captain;
-//force release: 1
+//force release: 2
 
 public class Captain
 {
